@@ -1,0 +1,70 @@
+nav#nav
+  #nav-group    
+    #blog_name
+     .back-home-button
+       i.back-home-button-icon.fas.fa-grip-vertical.faa-tada
+       .back-menu-list-groups
+         .back-menu-list-group
+           .back-menu-list-title 传送门
+           .back-menu-list
+             a.back-menu-item(href='https://mrzefr.cn/' rel='external nofollow' title='前往MrZeFr的个人主页' target='_blank')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text 个人主页
+             a.back-menu-item(href='/' title='前往博客主页' target='_blank')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text 博客
+             a.back-menu-item(href='https://pan.mrzefr.cn' title='前往MrZeFr的网盘' target='_blank')
+              img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+              span.back-menu-item-text MrZeFr的网盘
+             a.back-menu-item(href='https://status.mrzefr.cn' title='前往MrZeFr的监测器' target='_blank')
+              img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+              span.back-menu-item-text MrZeFr的监测器
+         .back-menu-list-group
+           .back-menu-list-title 博客线路
+           .back-menu-list
+             a.back-menu-item(href='https://blog.mrzefr.cn' title='前往博客主线路' target='_blank' rel='noopener nofollow')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text 主线路
+             a.back-menu-item(href='https://vercel.mrzefr.cn' title='前往博客Vercel线路' target='_blank' rel='noopener nofollow')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text Vercel线路
+             a.back-menu-item(href='https://netlify.mrzefr.cn' title='前往博客Netlify线路' target='_blank' rel='noopener nofollow')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text Netlify线路
+             a.back-menu-item(href='https://cloudflare.mrzefr.cn' title='前往博客Cloudflare线路' target='_blank' rel='noopener nofollow')
+               img.back-menu-item-icon.entered.loading(src='https://cdn.mrzefr.cn/Doraemon.ico' data-ll-status='loading')
+               span.back-menu-item-text Cloudflare线路
+
+     <a id="site-name" href="/" title="欢迎来到MrZeFr的小窝,祝你今天愉快丫!" class="title-tips" data-title="欢迎来到MrZeFr的小窝,祝你今天愉快丫!">
+       span#site-name-icon #[=config.title]
+    
+    #he-plugin-simple  
+      
+    #menus
+      !=partial('includes/header/menu_item', {}, {cache: true})
+      center(id="name-container")
+        a(id="page-name" title="返回顶部" onclick="mrzefr.scrollToTop();")
+	    
+    #nav-right
+      #Random
+        a.site-page.faa-parent.animated-hover(onclick="toRandomPost()" title='随机前往一个文章')
+          svg.faa-tada.icon(style="height:22px;width:28px" aria-hidden='true')
+            use(xlink:href='#icon-paperplane')
+      if (theme.algolia_search.enable || theme.local_search.enable)
+        #search-button
+          a.site-page.social-icon.search.faa-parent.animated-hover(title=_p('search.title'))
+            svg.faa-tada.icon(style="height:25px;width:25px" aria-hidden="true")
+              use(xlink:href='#icon-analitic')
+      #darkmode_navswitch
+        a.icon-V.hidden.faa-parent.animated-hover.nav-rightbutton.site-page.darkmode_switchbutton(onclick="mrzefr.switchDarkMode()",  title=_p('rightside.night_mode_title'))
+          svg.faa-tada(style="height:21px;width:25px", viewBox='0 0 1024 1024')
+            use#modeicon(xlink:href='#icon-moon')
+      #toggle-menu
+        a.nav-rightbutton.site-page.faa-parent.animated-hover(title=_p('page.menu'))
+            svg.faa-tada.icon(style="height:30px;width:25px" aria-hidden="true")
+              use(xlink:href='#icon-multi-window-01')
+
+
+
+
+

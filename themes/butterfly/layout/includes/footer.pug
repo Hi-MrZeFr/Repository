@@ -1,0 +1,66 @@
+#footer-wrap
+  if theme.footer.owner.enable
+    script(defer src='https://cdn.mrzefr.cn/js/blogtime.js')
+    #time-site
+    #footer_deal
+      a.social-icon(href='/atom.xml' target='_blank' title='RSS订阅' rel='external nofollow noopener noreferrer')
+        i.fa-solid.fa-rss.faa-tada.animated-hover
+      a.social-icon(href='mailto:mrzefr@mrzefr.cn' target='_blank' title='邮件' rel='external nofollow noopener noreferrer')
+        i.fas.fa-envelope.faa-tada.animated-hover
+      img.footer_logo(src='https://cdn.mrzefr.cn/image/PNG/arrow-up.png' title='返回顶部' onclick='mrzefr.scrollToTop();')
+      a.social-icon(href='https://github.com/Hi-MrZeFr' target='_blank' title='Github' rel='external nofollow noopener noreferrer')
+        i.fab.fa-github.faa-tada.animated-hover
+      a.social-icon(href='https://space.bilibili.com/1766684836' target='_blank' title='哔哩哔哩' rel='external nofollow noopener noreferrer')
+        i.fa-solid.fa-video.faa-tada.animated-hover
+    #mr-footer
+      .footer-group
+        h3.footer-title 📘日记
+        .footer-links
+          a.footer-item(href='/archives/') 文章
+          a.footer-item(href='/tags/') 标签
+          a.footer-item(href='/categories/') 分类
+          a.footer-item(onclick='toRandomPost();') 随便看看
+      .footer-group
+        h3.footer-title ⌛生活
+        .footer-links
+          a.footer-item(href='/bb/') 哔哔
+          a.footer-item(href='/about/') 关于我
+      .footer-group
+        h3.footer-title ✈导航
+        .footer-links
+          a.footer-item(target='_blank' title='主页' rel='external nofollow noopener noreferrer' href='https://mrzefr.cn') 个人主页
+          a.footer-item(href='/link/') 友情链接
+          a.footer-item(href='/fcircle/') 友链朋友圈
+          a.footer-item(href='/comments/') 本站留言
+          a.footer-item(target='_blank' title='网站监测' rel='external nofollow noopener noreferrer' href='https://status.mrzefr.cn') 网站监测
+          a.footer-item(target='_blank' title='个人云盘' rel='external nofollow noopener noreferrer' href='https://pan.mrzefr.cn') 个人云盘
+      .footer-group
+        h3.footer-title ©协议
+        .footer-links
+          a.footer-item(href='/privacy/') 隐私政策
+          a.footer-item(href='/cc/') 版权协议
+          a.footer-item(href='/comments-privacy/') 评论隐私协议
+    #footer-banner
+      .footer-banner-links
+        .footer-banner-left
+          #footer-banner-tips Copyright © 2021 - 2022 By <i id="heartbeat" class="fa fas fa-heartbeat"></i>
+            a.footer-item(href='/about/') MrZeFr 
+          #footer-banner-tips . All rights reserved.
+
+        .footer-banner-right
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站采用Hexo作为框架' title='Hexo' rel='external nofollow noopener noreferrer' href='https://hexo.io')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/Hexo.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/Hexo.svg' alt='Hexo')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站使用Butterfly主题' title='Butterfly' rel='external nofollow noopener noreferrer' href='https://butterfly.js.org')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/Butterfly.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/Butterfly.svg' alt='Butterfly')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站博客项目由GitHub托管' title='Github' rel='external nofollow noopener noreferrer' href='https://github.com')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/Github.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/Github.svg' alt='Github')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站在Vercel部署' title='Vercel' rel='external nofollow noopener noreferrer' href='https://vercel.com')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/Vercel.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/Vercel.svg' alt='Vercel')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站使用MrZeFrCDN' title='OSS' rel='external nofollow noopener noreferrer' href='https://cdn.mrzefr.cn')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/MrZeFrCDN.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/MrZeFrCDN.svg' alt='MrZeFrCDN')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站使用天御云高防CDN' title='天御云高防CDN' rel='external nofollow noopener noreferrer' href='https://tyucdn.com')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/tyucdn.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/tyucdn.svg' alt='萌ICP')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站已加入萌ICP备案' title='萌ICP' rel='external nofollow noopener noreferrer' href='https://icp.gov.moe/?keyword=mrzefr.cn')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/ICP.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/ICP.svg' alt='萌ICP')
+          a.footer-banner-link(target='_blank' class='title-tips' data-title='本站采用CC BY-NC-SA 4.0版权协议' title='Copyright' rel='external nofollow noopener noreferrer' href='/cc/')
+           img(src='https://cdn.mrzefr.cn/image/footer-svg/Copyright.svg' data-lazy-src='https://cdn.mrzefr.cn/image/footer-svg/Copyright.svg' alt='Copyright')

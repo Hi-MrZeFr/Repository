@@ -1,0 +1,117 @@
+- class_name: 小伙伴们
+  class_desc: 全都是大佬们~
+  link_list:
+    - name: MrZeFr的小窝
+      link: https://blog.mrzefr.cn
+      avatar: https://cdn.mrzefr.cn/Doraemon.ico
+      descr: Hello World
+    - name: 雨中的博客
+      link: https://blog.coolchong.cn
+      avatar: https://langwenchong.gitee.io/figure-bed/author.jpeg
+      descr: 频繁记录，只因生活和你太值得❤ 
+      siteshot: https://pic.imgdb.cn/item/609a06bed1a9ae528ff429cc.jpg
+    - name: 杜老师说
+      avatar: https://cdn.dusays.com/avatar.png
+      link: https://dusays.com
+      screenshot: https://bu.dusays.com/2020/11/13/0eccf1ca0dc4b.jpg
+      descr: 师者，传道，授业，解惑！
+    - name: DearXuan
+      avatar: https://bu.dusays.com/2021/08/25/32f61f6ad6985.png
+      link: https://blog.dearxuan.com
+      screenshot: https://bu.dusays.com/2021/08/27/c0424b7eb583a.jpg
+      descr: 编程,算法
+    - name: 罗小黑
+      avatar: https://thirdqq.qlogo.cn/g?b=qq&nk=3285884651&s=100
+      link: https://www.aiyo99.com
+      descr: 我在等一个人，等一个想保护的人。
+    - name: QianChengGit の小森林
+      avatar: https://QianChengGit.github.io/img/avatar.png
+      link: https://qianchenggit.github.io
+      descr: QianChengGit の小森林，欢迎来小森林做客！
+    - name: 小孙同学
+      link: https://sunguoqi.com
+      avatar: https://sunguoqi.com/images/avatar.jpg
+      descr: 小孙同学在努力
+    - name: ZJingW's のブログ
+      link: https://myblog-six.vercel.app/
+      avatar: https://cdn1.tianli0.top/gh/JingWZeng/markdownImg/img/202108231635263.jpeg
+      screenshot: https://i.loli.net/2021/10/02/oGJF6ZQiH7OBvVx.png
+      descr: 爱折腾的小前端
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+      siteshot: https://cdn1.tianli0.top/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
+    - name: Wlog
+      link: https://blog.w03.cc
+      avatar: https://blog.w03.cc/wsimg/96.jpg
+      descr: 这只是个普通人的博客
+    - name: Throwable
+      link: https://www.throwx.cn
+      avatar: https://throwable-blog-1256189093.cos.ap-guangzhou.myqcloud.com/mine/doge_avatar.jpg
+      descr: Java、架构、并发编程、源码
+    - name: Xc's Blog
+      link: https://blog.6ing.xyz
+      avatar: https://cdn1.tianli0.top/gh/mjcfx/picgo/img/qqtou.jpg
+      descr: 星辰大海
+      siteshot: https://cdn1.tianli0.top/gh/mjcfx/picgo/img/xc.png
+    - name: 白雾茫茫丶
+      link: https://blog.xmwpro.com/
+      avatar: https://cyan-blog.oss-cn-shenzhen.aliyuncs.com/global/avatar.jpg
+      descr: 记录学习、生活和有趣的事
+    - name: MJ's Blog
+      descr: 醒亦念卿，梦亦念卿
+      link: https://blog.justlovesmile.top
+      avatar: https://npm.elemecdn.com/justlovesmile-img/logo.jpg
+    - name: 圣奇宝枣的博客小站
+      link: https://www.shengqibaozao.eu.org
+      avatar: https://s2.loli.net/2022/05/22/4s8QIyo6OEiavVD.png
+      descr: 有朋自远方来，不亦乐乎，愿与你相识，得闲饮茶
+    - name: 小N同学
+      link: https://www.imcharon.com
+      avatar: https://public.cdn.nesxc.com/avatar.jpg
+      descr: 青石落晚巷 故人未还乡
+    - name: 檐牙的小窝
+      link: https://www.zxma.top/
+      avatar: https://npm.elemecdn.com/roofang-friend@latest/avatar/www.zxma.top.jpg
+      descr: 欢迎光临檐牙的小窝
+      siteshot: https://npm.elemecdn.com/roofang-friend@latest/siteshot/www.zxma.top.jpg
+    - name: 宏的自留地
+      link: https://blog.szraz.cn
+      avatar: https://cdn-img.afdelivr.top/2022/05/27/629090073d32b.jpg
+      descr: 一名爱折腾的初中生的小破站
+      siteshot: https://cdn-img.afdelivr.top/2022/05/27/629090073d32b.jpg
+    - name: Catch Wang
+      link: https://blog.catchwang.com
+      avatar: https://cos.catchwang.com/wp-resources/avatar.png
+      descr: 勿忘初心
+    - name: Lovepc System
+      link: https://system.lovepcos.xyz
+      avatar: https://system.lovepcos.xyz/wp-content/uploads/2022/08/uSW09aSz_user-200.jpg
+      descr: 尽力做最精简的系统
+    - name: DORAKIKA
+      link: https://blog.dorakika.cn
+      avatar: https://blog.dorakika.cn/img/favicon.jpg
+      descr: 热爱漫无边际，生活自有分寸
+    - name: 爱rua猫的李同学
+      link: https://qxxmx.com/
+      avatar: http://xn--yetu62gmga.top/i/2022/08/02/62e89cad099eb.jpg
+      descr: 分享技术、记录学习、乐于生活
+      siteshot: http://xn--yetu62gmga.top/i/2022/08/06/62ee5bd6714a2.png
+    - name: JERRY-SYSTEMの网站
+      link: https://blog.jerry-system.ml
+      avatar: https://blog.jerry-system.ml/pic/logo.png
+      descr: 欢迎来到 JERRY-SYSTEMの网站  
+    - name: LYXの小破站
+      link: https://yisous.xyz
+      avatar: https://yisous.xyz/img/avatar.jpg
+      descr: 人有悲欢离合 月有阴晴圆缺
+      siteshot: https://yisous.xyz/img/siteshot.png
+- class_name: 网站失联
+  class_desc: 希望您能回来!
+  link_list:
+    - name: 云梦 ╮不浅
+      link: https://blog.adworld.top
+      avatar: https://blog.adworld.top/photo/zhade2.jpg
+      descr: 梦，开始的地方
+      siteshot: https://bu.dusays.com/2021/09/19/7d92d3727122a.PNG

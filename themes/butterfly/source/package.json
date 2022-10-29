@@ -1,0 +1,22 @@
+{
+  "name": "blog-mrzefr",
+  "version": "1.5.8",
+  "description": "Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hi-MrZeFr/MrZeFr-Code.git"
+  },
+  "keywords": [
+    "Blog"
+  ],
+  "author": "MrZeFr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hi-MrZeFr/MrZeFr-Code/issues"
+  },
+  "homepage": "https://github.com/Hi-MrZeFr/MrZeFr-Code#readme"
+}

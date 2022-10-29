@@ -1,0 +1,30 @@
+- cover: https://api-image.mrzefr.cn
+  timeline: '2021-08-31'
+  link: /posts/WindowsPE-build/
+  title: 建议 | 打造你的专属PE
+  description: WindowsPE制造全过程....
+- cover: https://api-image.mrzefr.cn
+  timeline: '2021-08-26'
+  link: /posts/Vercel-Freenom
+  title: Vercel+Freenom搭建博客
+  description: 这篇文章讲述了怎么免费拥有自己的博客.....
+- cover: https://api-image.mrzefr.cn
+  timeline: '2021-12-02'
+  link: /posts/custom-mail
+  title: 自定义邮箱(腾讯企业邮箱)免费只需一个域名
+  description: 这篇文章讲述了怎么拥有一个自己的域名邮箱.....
+- cover: https://api-image.mrzefr.cn
+  timeline: '2022-10-02'
+  link: /posts/profreehost-free
+  title: 白嫖永久免费的 profreehost 主机
+  description: 本文是说怎么去白嫖一个永久免费的虚拟主机....
+- cover: https://api-image.mrzefr.cn
+  timeline: '2022-08-29'
+  link: /posts/recommend
+  title: 推荐一些我最近用的服务
+  description: 我自己使用的服务,推荐一下....
+- cover: https://api-image.mrzefr.cn
+  timeline: '2022-03-26'
+  link: /posts/Windows-meihua
+  title: Windows 的正确美化方式
+  description: 代码不会,但是逼格一定要高,本文讲述怎么自定义你的Windows。

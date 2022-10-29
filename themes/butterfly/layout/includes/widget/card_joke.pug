@@ -1,0 +1,8 @@
+.card-widget.card-joke
+  .card-content
+    .item-headline
+      i.fa-solid.fa-face-smile-wink
+      span= _p('随机笑话')
+    #joke-container
+    <a href="javascript:;" rel="noopener external nofollow" onclick="joke()">刷新随机笑话</a>
+script(data-pjax src=("https://cdn.mrzefr.cn/js/joke.js"))

@@ -1,0 +1,17 @@
+#bbTimeList.bbTimeList.container
+  i.bber-gotobb.far.fa-comment-alt
+  #bbtalk.swiper-container.swiper-container-initialized.swiper-container-vertical.swiper-container-pointer-events
+    #bber-talk.swiper-wrapper(aria-live='off' style='transition-duration: 0ms;') 博主哔哔加载中...
+    span.swiper-notification(aria-live='assertive' aria-atomic='true')
+    span.swiper-notification(aria-live='assertive' aria-atomic='true')
+  i.bber-gotobb.fas.fa-angle-double-right.pass
+script.
+  window.kkBBConfig = {
+  limit: 9,
+  blog:'/bb/',
+  api_url: 'https://bberapi.mrzefr.cn',
+  author: '62f5fff6e7ba4737eb1b591f'
+  }
+script.
+  document.getElementById("bbTimeList").addEventListener("click",(function(){pjax.loadUrl("/bb/")}));
+script(defer src='https://cdn.mrzefr.cn/Hexo-Plus/butterfly-speak-swiper/index.min.js')

@@ -1,0 +1,14 @@
+- var top_img_404 = theme.error_404.background || theme.default_top_img
+
+#body-wrap.error404
+  include ./header/index.pug
+  script(defer src='https://cdn.mrzefr.cn/js/404.js')
+
+  #error-wrap
+    .error-content
+      .error-img
+        img(src=url_for(top_img_404) alt='页面无法访问')
+      .error-info
+        h1.error_title= '404'
+        .error_subtitle
+          <div id="back-home">您访问了错误的404页面!</div>

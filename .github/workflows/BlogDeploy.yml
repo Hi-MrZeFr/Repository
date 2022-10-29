@@ -1,0 +1,64 @@
+name: 部署博客
+
+on:
+  push:
+    branches:
+      - master
+  watch:
+    types: [started]
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: 检查分支
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: 安装 Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+          registry-url: https://registry.npmjs.org
+
+      - name: 安装 Hexo
+        run: |
+          export TZ='Asia/Shanghai'
+          npm install hexo-cli -g
+          npm install gulp-cli -g
+
+      - name: 缓存 Hexo
+        uses: actions/cache@v1
+        id: cache
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: 安装依赖
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          npm install --save
+
+      - name: 生成静态文件
+        run: |
+          hexo clean
+          hexo g
+          hexo algolia
+          gulp
+
+      - name: 部署
+        run: |
+          git config --global user.name Hi-MrZeFr
+          git config --global user.email mrzefr@mrzefr.cn
+          hexo deploy
+          curl http://bt.mrzefr.tk/hook?access_key=J1GZTFQbO7PA7zOYysBQPpm13p0sDXbNg2go8JmQMgD28Z67&param=aaa
+          
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.npm_token }}
+          
+
+
+    
